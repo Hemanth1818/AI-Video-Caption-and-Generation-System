@@ -2,9 +2,6 @@
 
 # AI Video Caption & Generation System
 
-<p align="center">
-  <img src="/api/placeholder/1200/630" alt="AI Video Processing System"/>
-</p>
 
 [![Gradio](https://img.shields.io/badge/Gradio-FF6B6B?style=for-the-badge&logo=gradio&logoColor=white)](https://gradio.app/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
