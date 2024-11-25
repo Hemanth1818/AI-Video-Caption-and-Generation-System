@@ -26,7 +26,7 @@ An intelligent system that extracts frames from videos, generates captions using
 
 - Frame extraction from videos at customizable frame rates
 - Advanced video captioning using BLIP model
-- AI video generation using Latte-1 diffusion model
+- AI video generation using AnimateDiff diffusion model
 - User-friendly Gradio interface
 - Real-time processing and status updates
 - Support for multiple video formats
