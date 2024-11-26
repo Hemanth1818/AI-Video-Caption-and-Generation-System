@@ -192,7 +192,7 @@ Common Issues:
     <p>Input-3.gif</p>
   </div>
   <div style="text-align: center;">
-    <img src="Outputs/Output-3.gif" alt="Output-3" width="600">
+    <img src="Outputs/Output-3.gif" alt="Output-3" width="400">
     <p>Output-3.gif</p>
   </div>
 </div>
