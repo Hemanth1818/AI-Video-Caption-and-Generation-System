@@ -36,7 +36,10 @@ An intelligent system that extracts frames from videos, generates captions using
      * Cartoon
      * 3D
      * Anime
-- Apply motion effects like zoom, pan, and tilt for dynamic animations.
+- Apply motion effects like
+  * zoom
+  * pan
+  * tilt dynamic animations.
 - Adjust inference steps to control quality and speed.
 - View and download generated videos directly in the browser.
 
@@ -79,16 +82,14 @@ generate_video_from_captions('captions.txt', 'output_video.mp4')
 ## 📁 Project Structure
 
 ```
-ai-video-generator/
-├── app.py              # Main Gradio application
-├── modules/
-│   ├── extractor.py    # Frame extraction utilities
-│   ├── caption.py      # BLIP captioning system
-│   └── generator.py    # Video generation code
-├── models/
-│   └── weights/        # Pre-trained model weights
-├── requirements.txt
-└── README.md
+.Text-to-Video
+├── app.py                # Main Gradio interface code
+├── requirements.txt      # Dependencies for the project
+├── README.md             # Project documentation
+├── style.css             # (Optional) Custom Gradio styles
+└── assets/
+    └── sample_video.mp4  # Sample output video
+
 ```
 
 ## 📦 Dependencies
