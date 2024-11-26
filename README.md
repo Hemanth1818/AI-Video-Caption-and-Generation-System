@@ -32,10 +32,10 @@ An intelligent system that extracts frames from videos, generates captions using
 - Support for multiple video formats
 - Generate videos from textual prompts.
 - Choose from multiple animation styles:
-     # Realistic
-     # Cartoon
-     # 3D
-     # Anime
+     * Realistic
+     * Cartoon
+     * 3D
+     * Anime
 - Apply motion effects like zoom, pan, and tilt for dynamic animations.
 - Adjust inference steps to control quality and speed.
 - View and download generated videos directly in the browser.
