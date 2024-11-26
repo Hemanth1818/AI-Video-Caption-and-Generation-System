@@ -26,7 +26,7 @@ This project integrates the powerful AnimateDiffPipeline and BLIP (Bootstrapped 
 - [Configuration](#%EF%B8%8F-configuration)
 - [Troubleshooting](#%EF%B8%8F-troubleshooting)
 - [Processing Pipeline](#-processing-pipeline)
-- [Inputs and Outputs](#)
+- [Inputs and Outputs](#-inputs-and-outputs)
 - [License](#-license)
 
 ## ⚡ Features
@@ -190,10 +190,11 @@ The project processes video files by extracting frames, generating captions, and
 
 ### Input Videos
 
-The `inputs/` folder contains the raw video files used as examples for this project. Each file is named sequentially:
+The `Inputs/` folder contains the raw video files used as examples for this project. Each file is named sequentially:
 
 * Input-1.mp4
 * Input-2.mp4
+* ...
 * ...
 * Input-10.mp4
 
@@ -201,27 +202,14 @@ These videos demonstrate the initial state before applying the AI-powered captio
 
 ### Output Videos
 
-The `outputs/` folder showcases the final results after processing the input videos through the system. Each output corresponds to its respective input file:
+The `Outputs/` folder showcases the final results after processing the input videos through the system. Each output corresponds to its respective input file:
 
 * Output-1.mp4 (Generated from Input-1.mp4)
 * Output-2.mp4 (Generated from Input-2.mp4)
-* ...
-* Output-10.mp4
+* ...               ................
+* ...               ................
+* Output-10.mp4 (Generated from Input-10.mp4)
 
-The outputs highlight the transformations made by:
-
-* **Frame Extraction:** Breaking the input video into frames.
-* **Captioning:** Generating descriptive captions for each frame.
-* **Generation:** Creating AI-driven animated video outputs with text prompts.
-
-### How to View
-
-To explore the input and output files:
-
-1. Navigate to the respective folders in this repository:
-   * `inputs/`
-   * `outputs/`
-2. Compare the raw input videos with the processed outputs to observe the effectiveness of the system.
    
 ## 📄 License
 
