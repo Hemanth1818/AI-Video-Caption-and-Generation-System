@@ -25,8 +25,6 @@ An intelligent system that extracts frames from videos, generates captions using
 
 ## ⚡ Features
 
-# AI-Generated Videos
-
 **Transform descriptive text into captivating animations.**
 
 **Base Models:**
