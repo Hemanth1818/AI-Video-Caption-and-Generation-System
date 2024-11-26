@@ -1,7 +1,8 @@
 <div align="center">
 
-# AI Video Caption & Generation System
+# AI Video Caption and Generation System
 
+This project integrates the powerful AnimateDiffPipeline and BLIP (Bootstrapped Language-Image Pre-training) models to create an advanced text-to-video generation system. The application allows users to generate visually compelling animations based on text prompts with optional motion effects. Built using Hugging Face Diffusers and Gradio, the project features customizable motion adapters, base models, and user-friendly deployment.
 
 [![Gradio](https://img.shields.io/badge/Gradio-FF6B6B?style=for-the-badge&logo=gradio&logoColor=white)](https://gradio.app/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
@@ -24,31 +25,42 @@ An intelligent system that extracts frames from videos, generates captions using
 
 ## ⚡ Features
 
-- Frame extraction from videos at customizable frame rates
-- Advanced video captioning using BLIP model
-- AI video generation using AnimateDiff diffusion model
-- User-friendly Gradio interface
-- Real-time processing and status updates
-- Support for multiple video formats
-- Generate videos from textual prompts.
-- Choose from multiple animation styles:
-     * Realistic
-     * Cartoon
-     * 3D
-     * Anime
-- Apply motion effects like
-  * zoom
-  * pan
-  * tilt dynamic animations.
-- Adjust inference steps to control quality and speed.
-- View and download generated videos directly in the browser.
+# AI-Generated Videos
+
+**Transform descriptive text into captivating animations.**
+
+**Base Models:**
+
+* Realistic
+* Cartoon
+* Anime
+* 3D
+
+**Dynamic Motions:**
+
+* Zoom In / Out
+* Pan Left / Right
+* Tilt Up / Down
+* Roll Clockwise / Anticlockwise
+
+**BLIP Integration:**
+
+* Enhance visual storytelling with BLIP's pre-trained models for captioning and fine-tuning.
+
+**Adjustable Inference Steps:**
+
+* Control animation quality and speed through step adjustments.
+
+**Interactive Gradio Interface:**
+
+* Generate and download videos seamlessly via the web app.
 
 ## 🔧 Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ai-video-caption-&-generation-system
-cd ai-video-caption-&-generation-system
+git clone https://github.com/yourusername/ai-video-caption-and-generation-system
+cd ai-video-caption-and-generation-system
 
 # Install required packages
 pip install gradio
