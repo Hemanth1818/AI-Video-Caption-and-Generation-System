@@ -81,7 +81,7 @@ python app.py
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ai-video-caption-and-generation-system
+git clone https://github.com/Hemanth1818/ai-video-caption-and-generation-system
 cd ai-video-caption-and-generation-system
 
 # Install required packages
