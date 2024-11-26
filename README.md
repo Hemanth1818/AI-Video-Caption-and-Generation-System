@@ -2,15 +2,13 @@
 
 # AI Video Caption and Generation System
 
-This project integrates the powerful AnimateDiffPipeline and BLIP (Bootstrapped Language-Image Pre-training) models to create an advanced text-to-video generation system. The application allows users to generate visually compelling animations based on text prompts with optional motion effects. Built using Hugging Face Diffusers and Gradio, the project features customizable motion adapters, base models, and user-friendly deployment.
-
 [![Gradio](https://img.shields.io/badge/Gradio-FF6B6B?style=for-the-badge&logo=gradio&logoColor=white)](https://gradio.app/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
 
-An intelligent system that extracts frames from videos, generates captions using BLIP, and creates new AI-generated videos using diffusion models.
+This project integrates the powerful AnimateDiffPipeline and BLIP (Bootstrapped Language-Image Pre-training) models to create an advanced text-to-video generation system. The application allows users to generate visually compelling animations based on text prompts with optional motion effects. Built using Hugging Face Diffusers and Gradio, the project features customizable motion adapters, base models, and user-friendly deployment.
 
 </div>
 
