@@ -203,7 +203,6 @@ Common Issues:
 </table>
 
 
-
 ### Prompt for Video Generation:
 "A woman is sitting on the bed and looking to the book."
 
