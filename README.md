@@ -24,7 +24,7 @@ An intelligent system that extracts frames from videos, generates captions using
 - [Dependencies](#-dependencies)
 - [Model Details](#model-details)
 - [Configuration](#%EF%B8%8F-configuration)
-- [Troubleshooting](#-troubleshooting)
+- [Troubleshooting](#%EF%B8%8F-troubleshooting)
 - [Processing Pipeline](#-processing-pipeline)
 - [License](#-license)
 
