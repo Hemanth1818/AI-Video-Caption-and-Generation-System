@@ -57,20 +57,22 @@ An intelligent system that extracts frames from videos, generates captions using
 ## ⚙️ Setup Instructions
 1. Clone the Repository
    * Clone the repository from Hugging Face using Git Large File Storage (LFS):
-     ```bash
-     git clone https://huggingface.co/spaces/orderlymirror/Text-to-Video
-     cd Text-to-Video
-      ```
+```bash
+git clone https://huggingface.co/spaces/orderlymirror/Text-to-Video
+cd Text-to-Video
+```
 2. Install Dependencies
    * Install the required libraries for the project:
-     ```bash
-     pip install -r requirements.txt
-     ```
+```bash
+pip install -r requirements.txt
+```
 3. Run the Application
    * Launch the Gradio interface:
-     ```bash
-        python app.py
-     ```
+```bash
+python app.py
+```
+   * The application will be available at http://localhost:7860 or a shareable link.
+   
 ## 🔧 Installation
 
 ```bash
@@ -93,10 +95,6 @@ pip install torch
 - Apply Motion: Add motion effects like zoom or tilt for dynamic output.
 - Set Inference Steps: Choose the level of detail and quality by adjusting the inference steps.
 - Submit: Click the generate button and watch your video come to life!
-```python
-# Start the Gradio interface
-python app.py
-```
 
 ## 💻 Technical Details
 
@@ -105,8 +103,8 @@ python app.py
 # Extract frames
 frames = extract_frames(video_path, frame_rate=1)
 
-# Generate captions
-captions = generate_captions(frames)
+# Generate captions using BLIP
+captions = generate_captions_with_blip(frames)
 
 # Create AI-generated video
 generate_video_from_captions('captions.txt', 'output_video.mp4')
@@ -138,10 +136,12 @@ generate_video_from_captions('captions.txt', 'output_video.mp4')
 
 ## Model Details
 
-| Component | Model | Source |
-|-----------|-------|---------|
-| Captioning | BLIP | `Salesforce/blip-image-captioning-base` |
-| Video Generation | Latte-1 | `maxin-cn/Latte-1` |
+| Model | Description |
+|---|---|
+| BLIP | Captioning and language-vision alignment |
+| AnimateDiff | Text-to-video synthesis pipeline |
+| Base Models | Pre-trained artistic generators |
+| Motion Adapters | Adds dynamic animations like zoom and pan |
 
 ## 🛠️ Configuration
 
@@ -171,10 +171,10 @@ Common Issues:
 
 ## 🔄 Processing Pipeline
 
-1. Video Input → Frame Extraction
-2. Frames → BLIP Captioning
-3. Captions → Latte-1 Generation
-4. Generated Frames → Final Video
+1. Extract Frames → Process with BLIP for captioning.
+2. Text Input (captions) → AnimateDiffPipeline.
+3. Frames → Motion Adapter for animations.
+4. Generated Frames → Export to Video.
 
 ## 🤝 Contributing
 
