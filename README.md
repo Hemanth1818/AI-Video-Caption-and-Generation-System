@@ -186,7 +186,7 @@ Common Issues:
 
 ## 📂 Inputs and Outputs
 
-<table style="width:100%; text-align:center;">
+<table style="width:100%; text-align:left;">
   <tr>
     <td style="padding: 10px;">
       <img src="Inputs/Input-3.gif" alt="Input-3" width="300" style="border: 2px solid #ddd; border-radius: 8px;">
