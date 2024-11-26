@@ -186,6 +186,20 @@ Common Issues:
 
 ## 📂 Inputs and Outputs
 
+<table>
+  <tr>
+    <td><b>Input GIF</b></td>
+    <td><b>Output GIF</b></td>
+  </tr>
+  <tr>
+    <td><img src="Inputs/Input-3.gif" alt="Input-3" width="300"></td>
+    <td><img src="Outputs/Output-3.gif" alt="Output-3" width="300"></td>
+  </tr>
+</table>
+
+### Prompt for Video Generation:
+"A woman is sitting on the bed and looking to the book."
+
 The project processes video files by extracting frames, generating captions, and creating AI-driven outputs using advanced models like BLIP and AnimateDiff.
 
 ### Input Videos
