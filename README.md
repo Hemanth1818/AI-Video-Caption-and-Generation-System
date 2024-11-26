@@ -186,18 +186,25 @@ Common Issues:
 
 ## 📂 Inputs and Outputs
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="text-align: center;">
-    <img src="Inputs/Input-3.gif" alt="Input-3" width="300">
-    <p>Input-3.gif</p>
+<div style="display: flex; justify-content: space-around; align-items: center; text-align: center;">
+  <!-- Input GIF Section -->
+  <div style="flex: 1; padding: 10px;">
+    <img src="Inputs/Input-3.gif" alt="Input-3" width="300" style="border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <p style="font-size: 14px; color: #555;">Input-3.gif</p>
   </div>
-  <div> Prompt:"A woman is sitting on the bed and looking to the book."
-</div>
-  <div style="text-align: center;">
-    <img src="Outputs/Output-3.gif" alt="Output-3" width="400">
-    <p>Output-3.gif</p>
+
+  <!-- Prompt Section -->
+  <div style="flex: 1; padding: 10px; font-size: 16px; color: #333; font-style: italic;">
+    <p>"A woman is sitting on the bed and looking to the book."</p>
+  </div>
+
+  <!-- Output GIF Section -->
+  <div style="flex: 1; padding: 10px;">
+    <img src="Outputs/Output-3.gif" alt="Output-3" width="300" style="border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <p style="font-size: 14px; color: #555;">Output-3.gif</p>
   </div>
 </div>
+
 
 
 ### Prompt for Video Generation:
