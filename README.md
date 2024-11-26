@@ -186,16 +186,17 @@ Common Issues:
 
 ## 📂 Inputs and Outputs
 
-<table>
-  <tr>
-    <td><b>Input GIF</b></td>
-    <td><b>Output GIF</b></td>
-  </tr>
-  <tr>
-    <td><img src="Inputs/Input-3.gif" alt="Input-3" width="300"></td>
-    <td><img src="Outputs/Output-3.gif" alt="Output-3" width="300"></td>
-  </tr>
-</table>
+<div style="display: flex; justify-content: space-between;">
+  <div style="text-align: center;">
+    <img src="Inputs/Input-3.gif" alt="Input-3" width="300">
+    <p>Input-3.gif</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="Outputs/Output-3.gif" alt="Output-3" width="600">
+    <p>Output-3.gif</p>
+  </div>
+</div>
+
 
 ### Prompt for Video Generation:
 "A woman is sitting on the bed and looking to the book."
