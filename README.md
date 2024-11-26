@@ -91,12 +91,12 @@ pip install torch
 ```
 
 ## 🚀 Usage
-
 - Enter a Prompt: Describe the animation you'd like to generate (e.g., "A futuristic city with flying cars").
 - Select Style: Choose a base model for the animation (e.g., "Realistic," "Anime").
 - Apply Motion: Add motion effects like zoom or tilt for dynamic output.
 - Set Inference Steps: Choose the level of detail and quality by adjusting the inference steps.
 - Submit: Click the generate button and watch your video come to life!
+![image](https://github.com/user-attachments/assets/eb2ff358-d586-4f71-aced-e0faf40ecfab)
 
 ## 💻 Technical Details
 
