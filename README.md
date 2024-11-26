@@ -191,6 +191,8 @@ Common Issues:
     <img src="Inputs/Input-3.gif" alt="Input-3" width="300">
     <p>Input-3.gif</p>
   </div>
+  <div> Prompt:"A woman is sitting on the bed and looking to the book."
+</div>
   <div style="text-align: center;">
     <img src="Outputs/Output-3.gif" alt="Output-3" width="400">
     <p>Output-3.gif</p>
