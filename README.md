@@ -186,10 +186,11 @@ Common Issues:
 
 ## 📂 Inputs and Outputs
 
-<div style="display: flex; justify-content: space-around; align-items: center; text-align: center;">
+<div style="display: flex; justify-content: space-evenly; align-items: center; text-align: center;">
+
   <!-- Input GIF Section -->
   <div style="flex: 1; padding: 10px;">
-    <img src="Inputs/Input-3.gif" alt="Input-3" width="300" style="border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <img src="Inputs/Input-3.gif" alt="Input-3" width="300" style="border: 2px solid #ddd; border-radius: 8px;">
     <p style="font-size: 14px; color: #555;">Input-3.gif</p>
   </div>
 
@@ -200,10 +201,12 @@ Common Issues:
 
   <!-- Output GIF Section -->
   <div style="flex: 1; padding: 10px;">
-    <img src="Outputs/Output-3.gif" alt="Output-3" width="300" style="border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <img src="Outputs/Output-3.gif" alt="Output-3" width="300" style="border: 2px solid #ddd; border-radius: 8px;">
     <p style="font-size: 14px; color: #555;">Output-3.gif</p>
   </div>
+
 </div>
+
 
 
 
