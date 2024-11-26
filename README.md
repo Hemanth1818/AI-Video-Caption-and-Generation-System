@@ -193,7 +193,8 @@ Common Issues:
       <p style="font-size: 14px; color: #555;">Input-3.gif</p>
     </td>
     <td style="padding: 10px; vertical-align: bottom; font-size: 16px; color: #333; font-style: italic;">
-      <h1>"Prompt:: A woman is sitting on the bed and looking to the book."</h1>
+      <h1>"Prompt:: </h1>
+        <h1> A woman is sitting on the bed and looking to the book."</h1>
     </td>
     <td style="padding: 10px;">
       <img src="Outputs/Output-3.gif" alt="Output-3" width="400" style="border: 2px solid #ddd; border-radius: 8px;">
