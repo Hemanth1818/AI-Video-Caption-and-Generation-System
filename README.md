@@ -63,6 +63,7 @@ We’ve created a demo video showcasing the functionality of our AI Video Captio
 * [Watch the Demo](https://youtu.be/g1z6fBw__sU)
 
 ## ⚙️ Setup Instructions
+
 1. Clone the Repository
    * Clone the repository from Hugging Face using Git Large File Storage (LFS):
 ```bash
@@ -80,6 +81,12 @@ pip install -r requirements.txt
 python app.py
 ```
    * The application will be available at http://localhost:7860 or a shareable link.
+
+# To ensure optimal performance and avoid runtime issues, make sure to run this code on a T4 GPU in Google Colab. You can enable this by:
+
+1. Navigating to Runtime > Change Runtime Type in the Colab menu.
+2. Selecting GPU (T4) under the Hardware Accelerator dropdown.
+3. Saving your settings and running the notebook.
    
 ## 🔧 Installation
 
