@@ -57,8 +57,8 @@ This project integrates the powerful AnimateDiffPipeline and BLIP (Bootstrapped 
 
 * Generate and download videos seamlessly via the web app.
 ## 🎞️ Demo
-We’ve created a short demo video showcasing the functionality of our AI Video Caption and Generation System. From extracting frames and generating captions using BLIP to producing motion-enhanced AI-generated videos, the demo highlights each step of the pipeline.
-**[Watch the Demo](https://www.youtube.com/watch?v=dQw4w9WgXcQ)**
+We’ve created a demo video showcasing the functionality of our AI Video Caption and Generation System. From extracting frames and generating captions using BLIP to producing motion-enhanced AI-generated videos, the demo highlights each step of the pipeline.
+* [Watch the Demo](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ## ⚙️ Setup Instructions
 1. Clone the Repository
