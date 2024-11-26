@@ -186,27 +186,21 @@ Common Issues:
 
 ## 📂 Inputs and Outputs
 
-<div style="display: flex; justify-content: space-evenly; align-items: center; text-align: center;">
-
-  <!-- Input GIF Section -->
-  <div style="flex: 1; padding: 10px;">
-    <img src="Inputs/Input-3.gif" alt="Input-3" width="300" style="border: 2px solid #ddd; border-radius: 8px;">
-    <p style="font-size: 14px; color: #555;">Input-3.gif</p>
-  </div>
-
-  <!-- Prompt Section -->
-  <div style="flex: 1; padding: 10px; font-size: 16px; color: #333; font-style: italic;">
-    <p>"A woman is sitting on the bed and looking to the book."</p>
-  </div>
-
-  <!-- Output GIF Section -->
-  <div style="flex: 1; padding: 10px;">
-    <img src="Outputs/Output-3.gif" alt="Output-3" width="300" style="border: 2px solid #ddd; border-radius: 8px;">
-    <p style="font-size: 14px; color: #555;">Output-3.gif</p>
-  </div>
-
-</div>
-
+<table style="width:100%; text-align:center;">
+  <tr>
+    <td style="padding: 10px;">
+      <img src="Inputs/Input-3.gif" alt="Input-3" width="300" style="border: 2px solid #ddd; border-radius: 8px;">
+      <p style="font-size: 14px; color: #555;">Input-3.gif</p>
+    </td>
+    <td style="padding: 10px; vertical-align: middle; font-size: 16px; color: #333; font-style: italic;">
+      <p>"A woman is sitting on the bed and looking to the book."</p>
+    </td>
+    <td style="padding: 10px;">
+      <img src="Outputs/Output-3.gif" alt="Output-3" width="300" style="border: 2px solid #ddd; border-radius: 8px;">
+      <p style="font-size: 14px; color: #555;">Output-3.gif</p>
+    </td>
+  </tr>
+</table>
 
 
 
