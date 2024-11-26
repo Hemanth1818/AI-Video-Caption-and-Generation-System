@@ -16,7 +16,7 @@ An intelligent system that extracts frames from videos, generates captions using
 
 ## 📑 Table of Contents
 - [Features](#-features)
-- [Setup Instructions](#https://github.com/Hemanth1818/Project-Track-1a/blob/main/README.md#%EF%B8%8F-setup-instructions)
+- [Setup Instructions](#%EF%B8%8F-setup-instructions)
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Technical Details](#-technical-details)
