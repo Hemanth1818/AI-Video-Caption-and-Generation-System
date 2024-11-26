@@ -16,6 +16,7 @@ An intelligent system that extracts frames from videos, generates captions using
 
 ## 📑 Table of Contents
 - [Features](#-features)
+- [Setup Instructions](#)
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Technical Details](#-technical-details)
@@ -53,6 +54,23 @@ An intelligent system that extracts frames from videos, generates captions using
 
 * Generate and download videos seamlessly via the web app.
 
+## ⚙️ Setup Instructions
+1. Clone the Repository
+   * Clone the repository from Hugging Face using Git Large File Storage (LFS):
+     ```bash
+     git clone https://huggingface.co/spaces/orderlymirror/Text-to-Video
+     cd Text-to-Video
+    ```
+2. Install Dependencies
+   * Install the required libraries for the project:
+     ```bash
+     pip install -r requirements.txt
+     ```
+3. Run the Application
+   * Launch the Gradio interface:
+     ```bash
+        python app.py
+     ```
 ## 🔧 Installation
 
 ```bash
