@@ -16,7 +16,7 @@ An intelligent system that extracts frames from videos, generates captions using
 
 ## 📑 Table of Contents
 - [Features](#-features)
-- [Setup Instructions](#-setup-instructions)
+- [Setup Instructions](#8F-setup-instructions)
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Technical Details](#-technical-details)
