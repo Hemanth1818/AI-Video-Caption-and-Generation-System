@@ -14,7 +14,7 @@ This project integrates the powerful AnimateDiffPipeline and BLIP (Bootstrapped 
 
 ## 📑 Table of Contents
 - [Features](#-features)
-- [Demo](#)
+- [Demo](#%EF%B8%8F-demo)
 - [Setup Instructions](#%EF%B8%8F-setup-instructions)
 - [Installation](#-installation)
 - [Usage](#-usage)
