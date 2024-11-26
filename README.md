@@ -82,7 +82,7 @@ python app.py
 ```
    * The application will be available at http://localhost:7860 or a shareable link.
 
-# ⚠️ Important Note
+## ⚠️ Important Note
 *To ensure optimal performance and avoid runtime issues, make sure to run this code on a T4 GPU in Google Colab. You can enable this by:
 1. Navigating to Runtime > Change Runtime Type in the Colab menu.
 2. Selecting GPU (T4) under the Hardware Accelerator dropdown.
