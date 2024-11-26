@@ -47,8 +47,8 @@ An intelligent system that extracts frames from videos, generates captions using
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ai-video-generator.git
-cd ai-video-generator
+git clone https://github.com/yourusername/ai-video-caption-&-generation-system
+cd ai-video-caption-&-generation-system
 
 # Install required packages
 pip install gradio
