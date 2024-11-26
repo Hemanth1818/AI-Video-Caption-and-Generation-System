@@ -60,7 +60,7 @@ An intelligent system that extracts frames from videos, generates captions using
      ```bash
      git clone https://huggingface.co/spaces/orderlymirror/Text-to-Video
      cd Text-to-Video
-    ```
+      ```
 2. Install Dependencies
    * Install the required libraries for the project:
      ```bash
